@@ -1,0 +1,2 @@
+[19-Mar-2017 18:15:09 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/oztrust/public_html/wp-content/themes/dentario/404.php on line 14
+[24-Mar-2017 02:28:30 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/oztrust/public_html/wp-content/themes/dentario/404.php on line 14

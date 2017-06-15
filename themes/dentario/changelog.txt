@@ -1,0 +1,16 @@
+Version 1.2
+    * RTL version added
+    * plugins updated
+Version 1.1
+    * mobile header phone display fixed
+    * plugins updated
+    * google map fix
+Version 1.0.2
+    * services icon sizes in IE fixed
+    * mobile login menu is hidden when it's turned off in theme options
+    * mobile scroll fix
+Version 1.0.1
+    * support.team.php - fixed bug that caused error when installing dummy data
+    * plugins updated
+Version 1.0
+	* Dentario - release
