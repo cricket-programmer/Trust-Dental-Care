@@ -22,12 +22,16 @@ div#preloader {
   font-family: "calibri";
   src: "../fonts/calibri/calibri.ttf";
 }
+@font-face {
+  font-family: "lato";
+  src: "../fonts/lato/Lato-Regular.ttf";
+}
 body {
-  font-family: "calibri", sans-serif;
+  font-family: "lato", sans-serif;
   font-size: 14px;
 }
 .page_content_wrap p {
-  font-size: 16px;
+  font-size: 17px!important;
 }
 p {
   text-align: justify;
@@ -136,7 +140,7 @@ h4 {
 }*/
 /*banner*/
 .banner h1 {
-  font-family: calibri;
+  font-family: lato;
   font-weight: bold;
   color: #fff!important;
   font-size: 5em;
