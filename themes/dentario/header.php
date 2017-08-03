@@ -20,6 +20,14 @@ $video_bg_show  = dentario_get_custom_option('show_video_bg')=='yes' && (dentari
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?> class="<?php echo 'scheme_' . esc_attr($body_scheme); ?>">
 <head>
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-5J7ZNVP');</script>
+		<!-- End Google Tag Manager -->
+
 
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1<?php if (dentario_get_theme_option('responsive_layouts')=='yes') echo ', maximum-scale=1'; ?>">
@@ -44,65 +52,6 @@ $video_bg_show  = dentario_get_custom_option('show_video_bg')=='yes' && (dentari
 
 ?>
 
-<?php
-
-	if(is_home) {
-		echo '
-	<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "LocalBusiness",
-  "image": "https://trustdentalcare.com/wp-content/uploads/2016/12/trust-dental-care-logo.png",
-  "@id": "https://trustdentalcare.com",
-  "name": "Trust Dental Care",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Blvd. General Rodolfo Sánchez Taboada 929",
-    "addressLocality": "Tijuana",
-    "addressRegion": "TJ",
-    "postalCode": "22000",
-    "addressCountry": "MX"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 32.533909,
-    "longitude": -117.0332227
-  },
-  "url": "https://trustdentalcare.com",
-  "telephone": "8448487878",
-  "openingHoursSpecification": [
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday"
-      ],
-      "opens": "08:30",
-      "closes": "18:00"
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": "Saturday",
-      "opens": "08:30",
-      "closes": "14:00"
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": "Sunday",
-      "opens": "closed",
-      "closes": "closed"
-    }
-  ]
-}
-</script>
-';
-	}
-
- ?>
-
  <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -115,11 +64,6 @@ $video_bg_show  = dentario_get_custom_option('show_video_bg')=='yes' && (dentari
     "streetAddress": "Boulevard General Rodolfo Sánchez Taboada 929,"
   },
   "image": "https://trustdentalcare.com/wp-content/uploads/2016/12/trust-dental-care-logo.png",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5",
-    "reviewCount": "1742"
-  },
   "name": "Trust Dental Care",
   "openingHours": [
     "Mo-Fr 09:00-18:00",
@@ -152,6 +96,11 @@ wp_head();
 ?>
 </head>
 <body <?php body_class();?>>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5J7ZNVP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 <!-- facebook plugin -->
 <div id="fb-root"></div>
@@ -199,27 +148,7 @@ wp_head();
 			}
 	?>
 
-	<script type="text/javascript">
-		function messengerHandle() {
-		var messengerBtn = document.getElementById('messenger-btn');
-		var messengerTab = document.getElementById('messenger-tab');
-
-
-		if (messengerTab.classList.contains('fb-message-hide')) {
-			messengerTab.classList.remove('fb-message-hide');
-			messengerTab.classList.add('fb-message-show');
-		} else {
-			messengerTab.classList.remove('fb-message-show');
-			messengerTab.classList.add('fb-message-hide');
-		}
-
-
-		console.log('hola');
-		console.log(messengerTab);
-		}
-
-	</script>
-
+	
 
 
 
