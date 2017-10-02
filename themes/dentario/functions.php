@@ -222,11 +222,11 @@ add_action( 'wp_enqueue_scripts', 'remove_head_scripts' );
 
 
 // custom script for redirect user after leave a comment
-function redirect_after_comment(){
-wp_redirect('https://trustdentalcare.com/thank-you-for-contactig-us');
-exit();
-}
-add_filter('comment_post_redirect', 'redirect_after_comment');
+// function redirect_after_comment(){
+// wp_redirect('https://trustdentalcare.com/thank-you-for-contactig-us');
+// exit();
+// }
+// add_filter('comment_post_redirect', 'redirect_after_comment');
 
 
 function yelp_api() {

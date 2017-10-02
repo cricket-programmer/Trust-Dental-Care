@@ -28,6 +28,45 @@ div#preloader {
         url("fonts/gotham/GothamExLight.otf");
   
 }
+.sidebar_right.body_filled .widget_area[class*="scheme_"]:not(.footer_wrap) .widget_area_inner {
+    padding: 0 0 0 20px;
+    padding-top: 0!important;
+}
+
+#dpsp-floating-sidebar {
+  display: none;
+}
+
+.AfterScroll
+{
+  display: block!important;
+}
+.pum-theme-4628, .pum-theme-default-theme {
+    background-color: rgba(0, 0, 0, 0.57)!important;
+}
+.pum-theme-4628 .pum-container, .pum-theme-default-theme .pum-container {
+    background: #131b22!important;
+    padding: 50px!important;
+}
+.pum-theme-default-theme .pum-container input {
+    width: 100%;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.pum-theme-4628 .pum-content + .pum-close, .pum-theme-default-theme .pum-content + .pum-close {
+  background: rgb(219, 48, 88)!important;
+}
+
+#popmake-5887 {
+  padding: 0!important;
+}
+
+
+
+div:has(img) { width: 300px!important; }
+
 body {
   font-family: "lato", sans-serif;
   font-size: 14px;
@@ -47,11 +86,39 @@ h4 {
   font-size: 39px!important;
   font-weight: 100!important;
 }
+.map iframe {
+  width: 100%!important;
+  height: 100%!important;
+}
 .text-center {
   text-align: center;
 }
 #benefits-list li {
   margin-bottom: 20px;
+}
+/*buttons style*/
+.vc_btn3.vc_btn3-color-primary.vc_btn3-style-outline {
+    color: #db3058!important;
+    border-color: #db3058!important;
+}
+.vc_btn3.vc_btn3-color-primary.vc_btn3-style-flat {
+    background-color: #db3058!important;
+    color:#fff!important;
+}
+.vc_btn3.vc_btn3-color-primary.vc_btn3-style-outline:hover {
+    color: #fff!important;
+    background: #db3058!important;
+}
+
+
+.scheme_original .sc_list_style_iconed .sc_list_icon {
+  color: #db3058!important;
+}
+
+/*top bar*/
+
+#tpbr_topbar {
+    background: #8f6628!important;
 }
 
 /*Our team*/
@@ -484,8 +551,28 @@ ul li {
   font-size: 12px;
 }
 
+.scheme_original .menu_main_nav > li ul li a {
+  color: #9b9b9b!important;
+  text-align: left;
+}
+.page_content_wrap {
+    padding: 3.5em 0;
+}
+#toc {
+  display: none;
+}
 
 
+.esg-navigationbutton.esg-loadmore:after, 
+input[type="submit"]:after, 
+input[type="button"]:after, 
+button:after, 
+.content .booking_clear_custom:after, 
+#booking_submit_button:after, 
+.pagination_viewmore>a:after, 
+.sc_button:after {
+  display: none!important;
+}
 
 
 
@@ -573,5 +660,9 @@ ul li {
   .header_mobile .logo_main {
     width: 100%;
     height: 35px!important;
+  }
+
+  .slider_boxed, .content_wrap, .content_container {
+    width: 90%!important;
   }
 }
