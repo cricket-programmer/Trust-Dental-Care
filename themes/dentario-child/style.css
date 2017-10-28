@@ -59,9 +59,11 @@ div#preloader {
   background: rgb(219, 48, 88)!important;
 }
 
-#popmake-5887 {
+#popmake-5887,
+#popmake-6019 {
   padding: 0!important;
 }
+
 
 
 
@@ -645,6 +647,9 @@ button:after,
   .price-container .price-card.selected.unique {
     width: 100%;
   }
+  #popmake-6019 .form-info div {
+    flex: none!important;
+  }
 }
 @media screen and (max-width: 480px) {
   .header_mobile .menu_button {
@@ -664,5 +669,12 @@ button:after,
 
   .slider_boxed, .content_wrap, .content_container {
     width: 90%!important;
+  }
+  #popmake-6019 .form-info {
+    flex-direction: column;
+  }
+  #popmake-6019 .form-info div {
+    flex: none!important;
+    flex-direction: column;
   }
 }
